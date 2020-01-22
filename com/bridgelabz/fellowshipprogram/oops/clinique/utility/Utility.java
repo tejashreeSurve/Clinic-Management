@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Utility {
 	static Scanner scanner=new Scanner(System.in);
+	
+	// This method read integer value
 	public int integerValue() {
 		int value=0;
 		try {
@@ -15,6 +17,8 @@ public class Utility {
 		}
 		return value;
 	}
+	
+	// This method read String value
 	public static String stringValue() {
 		try {
 			return scanner.next();
@@ -24,6 +28,8 @@ public class Utility {
 		return null;
 		
 	}
+	
+	// This method read long value
 	public static long longValue() {
 		try {
 			return scanner.nextLong();
@@ -33,6 +39,7 @@ public class Utility {
 		return 9;
 	}
 	
+	// This method validate contact number value
 	public static boolean phoneNumberValidation(String contact) {
 		String value="^\\d{10}";
 		if(contact.matches(value))
@@ -40,6 +47,8 @@ public class Utility {
 		else
 			return false;
 	}
+	
+	// This method validate date value
 	public static boolean dateValidation(String date) {
 		String value="((([0]{1}[1-9]{1})|([1]{1}[0-9]{1})|([2]{1}[0-9]{1})|([3]{1}[0-1]{1}))/(([0]{1}[1-9]{1})|([1]{1}[0-2]{1}))/([1-9]{1}[0-9]{1}[0-9]{1}[1-9]{1}))";
 		if(date.matches(value)) 
@@ -48,4 +57,5 @@ public class Utility {
 			return false;
 		
 	}
+	scanner.close();
 }
