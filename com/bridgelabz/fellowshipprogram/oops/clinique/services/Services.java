@@ -324,9 +324,6 @@ public class Services {
 
 								if ((time >= listOfDoctor.get(j).getAvailable().getInTime())
 										&& (time < listOfDoctor.get(j).getAvailable().getOutTime())) // check weather
-																										// time is
-																										// available or
-																										// not
 								{
 									int apid = id + docid;
 									int numberOfPat = listOfDoctor.get(j).getNoOfPatient();
