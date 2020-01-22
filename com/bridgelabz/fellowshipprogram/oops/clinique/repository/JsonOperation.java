@@ -8,7 +8,6 @@ import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
 public class JsonOperation {
-
 	static ObjectMapper mapper = new ObjectMapper();
 
 	public void toWriteIntoFile(String filepath, Object object) {
@@ -18,13 +17,10 @@ public class JsonOperation {
 
 			e.printStackTrace();
 		}
-
 	}
 
 	public static Object toReadFromFile(String filepath, Object object)
 			throws JsonParseException, JsonMappingException, IOException {
-
 		return mapper.readValue(new File(filepath), object.getClass());
-
 	}
 }
