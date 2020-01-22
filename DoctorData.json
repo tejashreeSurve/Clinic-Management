@@ -1,0 +1,26 @@
+{
+  "dList": [
+    {
+      "docId": 1,
+      "docName": "shurbhi",
+      "docSpecialization": "heartSpecilist",
+      "available": {
+        "date": "21/01/1998",
+        "inTime": 2,
+        "outTime": 9
+      },
+      "noOfPatient": 0
+    },
+    {
+      "docId": 5,
+      "docName": "ashok",
+      "docSpecialization": "nurologist",
+      "available": {
+        "date": "21/01/1998",
+        "inTime": 2,
+        "outTime": 8
+      },
+      "noOfPatient": 0
+    }
+  ]
+}

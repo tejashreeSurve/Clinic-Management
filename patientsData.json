@@ -1,0 +1,16 @@
+{
+  "pList": [
+    {
+      "pId": 32,
+      "pName": "teju",
+      "pAge": 21,
+      "mobileNumber": "2322423423"
+    },
+    {
+      "pId": 2,
+      "pName": "tenavi",
+      "pAge": 45,
+      "mobileNumber": "234324234"
+    }
+  ]
+}
