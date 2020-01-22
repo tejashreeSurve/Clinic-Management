@@ -318,7 +318,6 @@ public class Services {
 							String yes = "yes";
 							if (choise.equals(yes)) // if user want to proceed
 							{
-
 								System.out.println("Enter time \n");
 								int time = utility.integerValue();
 
