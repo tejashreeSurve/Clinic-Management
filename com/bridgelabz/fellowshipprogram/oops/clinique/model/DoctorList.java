@@ -12,5 +12,4 @@ public class DoctorList {
 	public void setdList(List<Doctor> dList) {
 		this.dList = dList;
 	}
-
 }

@@ -14,12 +14,11 @@ import com.bridgelabz.fellowshipprogram.oops.clinique.repository.JsonOperation;
 import com.bridgelabz.fellowshipprogram.oops.clinique.utility.Utility;
 
 /**
- * @author Tejashree Surve 
- * Purpose: This class contains All logical methods of clinic Management System
- */        
- 
-public class Services {
+ * @author Tejashree Surve Purpose: This class contains All logical methods of
+ *         clinic Management System
+ */
 
+public class Services {
 	static ArrayList<Patients> listOfPatient = new ArrayList<Patients>();
 	static ArrayList<Doctor> listOfDoctor = new ArrayList<Doctor>();
 	static ArrayList<Appointment> listOfAppoint = new ArrayList<Appointment>();
@@ -354,7 +353,6 @@ public class Services {
 			System.out.println("Patients not Found\n");
 		if (docfoundSpec == false)
 			System.out.println("Doctor with such specialization  not Found\n");
-
 	}
 
 	/**
@@ -388,7 +386,7 @@ public class Services {
 	 * Purpose: This method save Patients Records in json file
 	 */
 	public static void savePatientsRecord() {
-		String filepath = "/home/admin1/Desktop/BridgeLabzPrograms/JsonProject/src/com/bridgelabz/fellowshipprogram/oops/clinique/patientsData.json";
+		String filepath = "/home/admin1/Desktop/BridgeLabzPrograms/ClinicManagement/src/patientsData.json";
 		operation.toWriteIntoFile(filepath, pList);
 		System.out.println("patients records is successfully save\n");
 	}
@@ -397,7 +395,7 @@ public class Services {
 	 * Purpose: This method save Doctors Records in json file
 	 */
 	public static void saveDoctorsRecord() {
-		String filepath = "/home/admin1/Desktop/BridgeLabzPrograms/JsonProject/src/com/bridgelabz/fellowshipprogram/oops/clinique/DoctorData.json";
+		String filepath = "/home/admin1/Desktop/BridgeLabzPrograms/ClinicManagement/src/DoctorData.json";
 		operation.toWriteIntoFile(filepath, dlist);
 		System.out.println("Doctor records is successfully save\n");
 	}
@@ -406,7 +404,7 @@ public class Services {
 	 * Purpose: This method save Appointment Records in json file
 	 */
 	public static void saveAppointmentRecord() {
-		String filepath = "/home/admin1/Desktop/BridgeLabzPrograms/JsonProject/src/com/bridgelabz/fellowshipprogram/oops/clinique/appointmentDate.json";
+		String filepath = "/home/admin1/Desktop/BridgeLabzPrograms/ClinicManagement/src/appointmentDate.json";
 		operation.toWriteIntoFile(filepath, alist);
 		System.out.println("Appointmtnt records is successfully save\n");
 	}

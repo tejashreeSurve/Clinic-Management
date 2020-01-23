@@ -15,16 +15,12 @@ public class JsonOperation {
 		try {
 			mapper.writeValue(new File(filepath), object);
 		} catch (IOException e) {
-
 			e.printStackTrace();
 		}
-
 	}
 
 	public static Object toReadFromFile(String filepath, Object object)
 			throws JsonParseException, JsonMappingException, IOException {
-
 		return mapper.readValue(new File(filepath), object.getClass());
-
 	}
 }

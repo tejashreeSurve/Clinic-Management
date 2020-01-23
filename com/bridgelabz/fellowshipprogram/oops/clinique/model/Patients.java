@@ -7,7 +7,6 @@ public class Patients {
 	public String mobileNumber;
 
 	public Patients(int pId, String pName, int pAge, String mobileNumber) {
-
 		this.pId = pId;
 		this.pName = pName;
 		this.pAge = pAge;
@@ -45,5 +44,4 @@ public class Patients {
 	public void setMobileNumber(String mobileNumber) {
 		this.mobileNumber = mobileNumber;
 	}
-
 }

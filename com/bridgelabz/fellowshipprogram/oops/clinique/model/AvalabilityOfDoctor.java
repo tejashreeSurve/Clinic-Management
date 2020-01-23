@@ -54,5 +54,4 @@ public class AvalabilityOfDoctor {
 	public void setDate(String date) {
 		Date = date;
 	}
-
 }
