@@ -1,0 +1,18 @@
+{
+  "aList":[
+  {
+  "appoiId":15,
+  "patientid":2,
+  "doctorid":5,
+  "doctName":"shurbhi",
+   "available": {
+        "date": "21/01/1998",
+        "inTime": 2,
+        "outTime": 9
+      },
+  "patientName":"tenavi",
+  "mobileNumber":234324234"
+  }
+  
+  ]
+ }
