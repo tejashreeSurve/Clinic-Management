@@ -8,7 +8,6 @@ public class Doctor {
 	int noOfPatient;
 
 	public Doctor(int docId, String docName, String docSpecialization, AvalabilityOfDoctor available, int noOfPatient) {
-
 		this.docId = docId;
 		this.docName = docName;
 		this.docSpecialization = docSpecialization;
@@ -55,5 +54,4 @@ public class Doctor {
 	public void setNoOfPatient(int noOfPatient) {
 		this.noOfPatient = noOfPatient;
 	}
-
 }
