@@ -6,7 +6,7 @@ import com.bridgelabz.fellowshipprogram.oops.clinique.utility.Utility;
 
 /**
  * @author Tejashree surve 
- * Purpose: This program is used to manage a list of
+ * @Purpose: This program is used to manage a list of
  *         Doctors associated with the Clinic. This also manages the list of
  *         patients who use the clinic. This allow user to do list of option.
  */
